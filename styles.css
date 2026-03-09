@@ -123,32 +123,35 @@ h1 {
 .hero-actions {
   margin-top: 1.2rem;
   display: flex;
-  gap: 0.7rem;
+  gap: 0.55rem;
   flex-wrap: wrap;
 }
 
-.btn {
-  text-decoration: none;
-  padding: 0.58rem 1rem;
+.social-btn {
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 999px;
-  border: 1px solid transparent;
-  transition: transform 120ms ease, box-shadow 120ms ease;
-}
-
-.btn:hover {
-  transform: translateY(-1px);
-}
-
-.btn-primary {
-  background: var(--accent);
-  color: #fff;
-  box-shadow: 0 8px 20px #d95d3942;
-}
-
-.btn-ghost {
-  border-color: var(--line);
+  border: 1px solid var(--line);
+  background: #ffffffb3;
   color: var(--ink);
-  background: #ffffff7f;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 120ms ease, box-shadow 120ms ease,
+    background-color 120ms ease;
+}
+
+.social-btn svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: currentColor;
+}
+
+.social-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px #1f243024;
+  background: #fff;
 }
 
 main {
