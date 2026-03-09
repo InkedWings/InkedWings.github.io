@@ -43,14 +43,11 @@
         </div>
       </div>
       <div class="hero-photo reveal">
-        <picture>
-          <source srcset="./assets/profile.jpg" type="image/jpeg" />
-          <source srcset="./assets/profile.png" type="image/png" />
-          <img
-            src="./assets/profile.png"
-            alt="Portrait of Zhijing Ye"
-          />
-        </picture>
+        <img
+          src="./assets/profile.png"
+          alt="Portrait of Zhijing Ye"
+          onerror="this.onerror=null;this.src='./assets/profile-placeholder.svg';"
+        />
       </div>
     </header>
 
