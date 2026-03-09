@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Profile Photo Placeholder</title>
+  <desc id="desc">Replace this placeholder with your real profile photo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd166" />
+      <stop offset="100%" stop-color="#06d6a0" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)" />
+  <circle cx="300" cy="220" r="110" fill="#f4f4f4" opacity="0.9" />
+  <path d="M120 520c25-115 95-170 180-170s155 55 180 170" fill="#f4f4f4" opacity="0.9" />
+  <text x="300" y="560" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-size="28" fill="#1f2430">
+    Replace with your photo
+  </text>
+</svg>
